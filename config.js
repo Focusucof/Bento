@@ -11,9 +11,9 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Devin',
   imageBackground: false,
-  openInNewTab: true,
+  openInNewTab: false,
   twelveHourFormat: false,
 
   // Greetings
@@ -40,39 +40,39 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'Github',
+      name: 'YouTube',
+      icon: 'youtube',
+      link: 'https://www.youtube.com/',
+    },
+    {
+      id: '2',
+      name: 'Twitch',
+      icon: 'twitch',
+      link: 'https://www.twitch.tv/',
+    },
+    {
+      id: '3',
+      name: 'Twitter',
+      icon: 'twitter',
+      link: 'https://twitter.com/',
+    },
+    {
+      id: '4',
+      name: 'Mail',
+      icon: 'mail',
+      link: 'https://gmail.com/',
+    },
+    {
+      id: '5',
+      name: 'GitHub',
       icon: 'github',
       link: 'https://github.com/',
     },
     {
-      id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
-    },
-    {
-      id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '5',
-      name: 'Reddit',
-      icon: 'bookmark',
-      link: 'https://reddit.com',
-    },
-    {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'HackerOne',
+      icon: 'terminal',
+      link: 'https://hackerone.com/',
     },
   ],
 
@@ -81,45 +81,45 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'film',
+  secondListIcon: 'code',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Disney+',
+        link: 'https://www.disneyplus.com/',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Netflix',
+        link: 'https://www.netflix.com/ca/',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: '',
+        link: '',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: '',
+        link: '',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'localhost:1337',
+        link: 'http://localhost:1337/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'localhost:8080',
+        link: 'http://localhost:8080/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'localhost:80',
+        link: 'http://localhost/',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'localhost:3000',
+        link: 'http://localhost:3000/',
       },
     ],
   },
